@@ -3,7 +3,7 @@
 let name = prompt("Welcome to IELTS Optimize! What is your name?");
 
 function greeting(){
-    alert(`Hi ${name}, I hope you find this website useful to prepare for the IELTS exam`);
+    alert(`Hi ${name}, I hope you find this website useful for your IELTS preparation.`);
 }
 greeting();
 
@@ -15,7 +15,7 @@ let introQuestion = prompt("What would you like to do?  1- I'd like to know whic
 
 if (introQuestion == 1) {
     
-    let purpose = prompt(`Fantastic! What's the main purpose for taking the exam? Write a number. 1. Live abroad 2. Work abroad 3. Study abroad 4.Validate your degree 5. Ppersonal challenge 6. Other`)
+    let purpose = prompt(`Fantastic! What's the main purpose for taking the exam? Write a number. 1. Live abroad 2. Work abroad 3. Study abroad 4.Validate your degree 5. Personal challenge 6. Other`)
 
     if (purpose == 1||2) {
         alert("You have to take the IELTS General Training version");
