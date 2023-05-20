@@ -1,0 +1,21 @@
+.faq{
+    font-family: $font-family_2;
+    font-size: 3rem;
+    color: #0E4B6B;
+    padding: 20px;
+}
+.q_a {
+    font-size: 1.1rem;
+    margin:0px 30px;
+    line-height: 1.2;
+    .questions{
+        color: $color-red;
+        font-weight: bold;
+    }
+}
+
+@media screen and(max-width:768px) {
+    .q_a{
+        text-align: justify;
+    }
+}

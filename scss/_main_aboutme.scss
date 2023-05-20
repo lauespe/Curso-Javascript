@@ -1,0 +1,18 @@
+.main_aboutme{
+    height: auto;
+    .rounded_img{
+        align-content: center;
+    .aboutme{
+        font-family: $font-family_2;
+        font-size: 3rem;
+    .aboutme_text{
+        font-size: 1.1rem;
+    }
+    }
+}
+}
+@media screen and(max-width:768px) {
+    .aboutme_text{
+        text-align:center;
+    }
+}

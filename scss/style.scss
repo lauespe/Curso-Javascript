@@ -1,0 +1,92 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'main_contact_form';
+@import 'main_exam';
+@import 'main_services';
+@import 'main_aboutme';
+@import 'main_faq';
+
+
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: $color_blue;
+}
+
+.rounded_img {
+    display: block;
+    margin: auto;
+    border-radius: 70%;
+    padding-top: 20px; 
+    filter: drop-shadow(4px 3px 5px #ffff);
+    align-content:  center;
+}
+
+main {
+    background-color: beige;
+    font-family: 'Josefin Sans', sans-serif;
+}            
+.logo {
+    display:block;
+    padding: 20px;
+    margin:auto;
+    }
+.logo_animation {
+        width:auto;
+        height:auto;
+        position:relative;
+        animation-name:logo_animation;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-iteration-count: 1; 
+    }
+@keyframes logo_animation{
+    0%   {opacity:0}
+    100% {opacity:1}    
+}
+
+.prepare{
+    font-family: $font-family_2;    
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0E4B6B;
+}
+.why{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    h3 {
+        color: $color_red;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+}
+.versions{
+    font-size: 1.1rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    h3{
+        color: $color_red;
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+}
+.card{
+    align-items: center;
+    margin:auto;
+    font-size: 1.2rem;
+    height:auto;
+    .card-title{
+        font-weight: bolder;
+    .card-body{
+    height:auto;
+    }
+    }
+}

@@ -1,0 +1,235 @@
+header {
+  background-color: #0E4B6B; }
+
+nav {
+  justify-content: center;
+  align-items: center;
+  height: auto; }
+  nav .nav__menu {
+    list-style-type: none;
+    display: flex;
+    padding: 2px; }
+    nav .nav__menu .nav__li {
+      display: flex;
+      font-size: 1.1rem;
+      padding: 10px 20px; }
+      nav .nav__menu .nav__li:hover {
+        background-color: #00C2CB;
+        font-size: 1rem;
+        border-radius: 50%; }
+      nav .nav__menu .nav__li a {
+        color: #ffff;
+        font-size: 1rem;
+        font-weight: 200;
+        text-decoration: none; }
+        nav .nav__menu .nav__li a:hover {
+          color: #ffff;
+          font-size: 0.9rem; }
+
+footer {
+  background: linear-gradient(to right, #095c8a, #105e88, #0E4B6B);
+  margin: 0px;
+  height: 200px;
+  color: #ffff; }
+  footer .icons {
+    display: flex;
+    justify-content: center; }
+    footer .icons .icon-link {
+      margin: 60px; }
+
+.contactme {
+  font-family: "Allan", cursive;
+  font-size: 3rem;
+  margin-left: 80px;
+  padding: 30px; }
+
+.main_form {
+  justify-content: center;
+  padding-bottom: 80px;
+  margin-left: 90px; }
+
+form {
+  border-radius: 5%; }
+
+.about {
+  font-family: "Allan", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px; }
+
+.about_exam {
+  text-align: center;
+  padding: 5px 60px; }
+
+.skillheading {
+  font-weight: bolder;
+  text-align: center;
+  padding: 1.2rem; }
+
+.section1 {
+  background-color: #33a2b163;
+  padding: 20px;
+  line-height: 1.5;
+  margin: 30px;
+  text-align: justify; }
+
+.section2 {
+  background-color: #58a6b163;
+  padding: 20px;
+  line-height: 1.5;
+  margin: 30px;
+  text-align: justify; }
+
+.section3 {
+  background-color: #7fb8c063;
+  padding: 20px;
+  line-height: 1.5;
+  margin: 30px;
+  text-align: justify; }
+
+.section4 {
+  background-color: #b4c6c963;
+  padding: 20px;
+  line-height: 1.5;
+  margin: 30px;
+  text-align: justify; }
+
+.services {
+  font-family: "Allan", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px; }
+
+.servicesheading {
+  font-weight: bolder;
+  text-align: center;
+  padding: 1.2rem; }
+
+.serv_text {
+  width: 90%;
+  text-align: center;
+  margin: auto; }
+
+.prepcourse {
+  background-color: #33a2b163;
+  padding: 20px;
+  line-height: 1.5;
+  margin: 30px 30px;
+  text-align: justify; }
+
+.writingcorrection {
+  background-color: #58a6b163;
+  padding: 20px;
+  line-height: 1.5;
+  margin: 30px 30px;
+  text-align: justify; }
+
+.speakingsession {
+  background-color: #7fb8c063;
+  padding: 20px;
+  line-height: 1.5;
+  margin: 30px 30px;
+  text-align: justify; }
+
+.main_aboutme {
+  height: auto; }
+  .main_aboutme .rounded_img {
+    padding-top: 20px; }
+  .main_aboutme .aboutme {
+    font-family: "Allan", cursive;
+    font-size: 3rem; }
+    .main_aboutme .aboutme .aboutme_text {
+      font-size: 1.1rem; }
+
+.faq {
+  font-family: "Allan", cursive;
+  font-size: 3rem;
+  color: #0E4B6B;
+  padding: 20px; }
+
+.q_a {
+  font-size: 1.2rem;
+  margin: 0px 30px;
+  line-height: 1.2; }
+  .q_a .questions {
+    color: #FF5757;
+    font-weight: bold; }
+
+@media screen and (max-width: 768px) {
+  .q_a {
+    text-align: justify; } }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #0E4B6B; }
+
+.rounded_img {
+  display: block;
+  margin: auto;
+  border-radius: 70%;
+  padding-top: 20px;
+  filter: drop-shadow(4px 3px 5px #ffff);
+  align-content: center; }
+
+main {
+  background-color: beige;
+  font-family: 'Josefin Sans', sans-serif; }
+
+.logo {
+  display: block;
+  padding: 20px;
+  margin: auto; }
+  .logo .logo_animation {
+    width: auto;
+    height: auto;
+    position: relative;
+    animation-name: logo_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: 1; }
+
+@keyframes logo_animation {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.prepare {
+  font-family: "Allan", cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0E4B6B; }
+
+.why {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 90%;
+  margin: auto; }
+  .why h3 {
+    color: #FF5757;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 30px; }
+
+.versions {
+  font-size: 1.1rem;
+  text-align: center;
+  width: 90%;
+  margin: auto; }
+  .versions h3 {
+    color: #FF5757;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 30px; }
+
+.card {
+  align-items: center;
+  margin: auto;
+  font-size: 1.2rem;
+  height: auto; }
+  .card .card-title {
+    font-weight: bolder; }
+    .card .card-title .card-body {
+      height: auto; }
