@@ -17,9 +17,9 @@ if (introQuestion == 1) {
     
     let purpose = prompt(`Fantastic! What's the main purpose for taking the exam? Write a number. 1. Live abroad 2. Work abroad 3. Study abroad 4.Validate your degree 5. Personal challenge 6. Other`)
 
-    if (purpose == 1||2) {
+    if (purpose == 1|| purpose == 2) {
         alert("You have to take the IELTS General Training version");
-    }else if (purpose == 3||4) {
+    }else if (purpose == 3||purpose == 4) {
         alert("You have to take the IELTS Academic version");
     }else if (purpose == 5) 
         alert("You could take either version. I'd suggest checking a mock exam of each version and decide which suits you better.");
